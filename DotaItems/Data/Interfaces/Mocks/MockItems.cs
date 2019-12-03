@@ -76,24 +76,24 @@ namespace DotaItems.Data.Interfaces.Mocks
                         isFavourite =true,
                         availabele = true,
                         Category =_categoryItems.AllCategories.Last()
-                    },
-                    new Items
-                    {
-                        name = "Trusty Shovel",
-                        shortDesc ="Can find a Bounty Rune, a Flask, a 2 charged TP Scroll bundle, or an enemy Kobold.",
-                        longDesc =@"Channel for 1 second.
-                                    Can find a Bounty Rune, a Flask, a 2 charged TP Scroll bundle, or an enemy Kobold.
-                                    Channel Time: 1
-                                    Bounty Rune Drop Chance: 16%
-                                    Healing Salve Drop Chance: 28%
-                                    Town Portal Scroll Drop Chance: 28%
-                                    Kobold Drop Chance: 28%",
-                        img ="https://dota2.gamepedia.com/File:Trusty_Shovel_icon.png",
-                        price =300,
-                        isFavourite =true,
-                        availabele = true,
-                        Category =_categoryItems.AllCategories.Last()
                     }
+                    //new Items
+                    //{
+                    //    name = "Trusty Shovel",
+                    //    shortDesc ="Can find a Bounty Rune, a Flask, a 2 charged TP Scroll bundle, or an enemy Kobold.",
+                    //    longDesc =@"Channel for 1 second.
+                    //                Can find a Bounty Rune, a Flask, a 2 charged TP Scroll bundle, or an enemy Kobold.
+                    //                Channel Time: 1
+                    //                Bounty Rune Drop Chance: 16%
+                    //                Healing Salve Drop Chance: 28%
+                    //                Town Portal Scroll Drop Chance: 28%
+                    //                Kobold Drop Chance: 28%",
+                    //    img ="https://dota2.gamepedia.com/File:Trusty_Shovel_icon.png",
+                    //    price =300,
+                    //    isFavourite =true,
+                    //    availabele = true,
+                    //    Category =_categoryItems.AllCategories.Last()
+                    //}
                 };
             }
         }
